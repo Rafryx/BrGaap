@@ -37,9 +37,9 @@
                 <Column width="25%">
                     <Text text="{i18n>Completado}"/>
                 </Column>
-                <Column width="25%" id="unitsInStockColumn">
-                    <Text text="{i18n>Detalhes}"/>
-                </Column>
+               <Column hAlign="End" width="25%" id="unitsInStockColumn">
+                   <Text text="{i18n>Detalhes}"/>
+              </Column>
             </columns>
             <items>
                 <ColumnListItem>
@@ -47,7 +47,7 @@
                         <ObjectNumber number="{invoice>id}" emphasized="false"/>
                         <ObjectIdentifier title="{invoice>title}"/>
                         <CheckBox selected="{invoice>completed}"/>
-                        <HBox>
+                        <HBox class="details">
                             <core:Icon src="sap-icon://detail-view" size="1.2rem" press=".onPress"/>
                             <ObjectIdentifier title="{ProductName}"/>
                         </HBox>
@@ -60,3 +60,4 @@
         </Table>
     </Panel>
 </mvc:View>
+
