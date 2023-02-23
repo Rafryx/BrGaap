@@ -1,0 +1,85 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+ 	margin-right: 0.125rem
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+ 	margin-left: 0.125rem
+}
+
+.myAppDemoWT .myCustomText {
+	display: inline-block;
+	font-weight: bold;
+}
+
+/*  ProductRating */
+.myAppDemoWTProductRating {
+	padding: 0.75rem;
+}
+
+.myAppDemoWTProductRating .sapMRI {
+	vertical-align: initial;
+}
+.sapMListUl .sapMLIB.sapMGHLI {
+    height: 0;
+}
+
+.sapUiSizeCompact .sapMPageHeader .sapMIBar, .sapUiSizeCompact .sapMPageFooter .sapMIBar {
+    height: 0rem;
+}
+
+.sapMIBar.sapMHeader-CTX {
+	background-color: white;
+}
+
+/*-----logo movimento -----*/
+
+.sapMPanel .sapMPanelHdr, .sapMPanel .sapMTB.sapMPanelHeaderTB {
+    padding-left: 2rem;
+    padding-top: 0px;
+	margin: 0;
+	margin-top: -20px;
+}
+
+/*------headler background----*/
+.sapMTB {
+    height: 2.75rem;
+    padding: 0 0.5rem 0 0.25rem;
+   
+}
+
+/*-------Botao cetinha para voltar dos detalhes ---*/
+:not(.sapMBtnDisabled) .sapMBtnBack>.sapMBtnIcon, :not(.sapMBtnDisabled) .sapMBtnTransparent>.sapMBtnIcon, :not(.sapMBtnDisabled) .sapMBtnGhost>.sapMBtnIcon {
+    color: blue;
+}
+
+
+.sapUiSizeCompact .sapMPageHeader .sapMIBar .sapMBarLeft, .sapUiSizeCompact .sapMPageFooter .sapMIBar .sapMBarLeft, .sapUiSizeCompact .sapMPageHeader .sapMIBar .sapMBarRight, .sapUiSizeCompact .sapMPageFooter .sapMIBar .sapMBarRight, .sapUiSizeCompact .sapMPageHeader .sapMIBar .sapMBarPH, .sapUiSizeCompact .sapMPageFooter .sapMIBar .sapMBarPH {
+    height: 2.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+/*----- Tabela -----*/
+
+.sapMListTblNavCol {
+    border: 1px;
+}
+
+
+table, th, td {
+    border: 0.1px solid silver;
+} 
+
+/*---- icone details ----*/
+
+.sapUiBody {
+    color: #47729f;
+}
+
+/*----- texto dos itens----*/
+.sapMListTbl .sapMObjectIdentifierTitle .sapMText {
+    font-weight: 500;
+    color:  #32363a;
+}
+
+
