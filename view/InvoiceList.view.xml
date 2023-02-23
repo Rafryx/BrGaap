@@ -9,9 +9,8 @@
           <Image src="img/logo.png" alt="Logo" />
         </Toolbar>
         </headerToolbar>
-        <FlexBox justifyContent="End">
-             <SearchField width="80%" search=".onFilterInvoices" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom sapMInputBaseHeader sapMBarRight"/>
-        </FlexBox>
+         <SearchField width="96%" search=".onFilterInvoices" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom sapMInputBaseHeader sapMBarRight"/>
+        
         <Table 
             id="invoiceList"
             class="sapUiResponsiveMargin"
